@@ -1,0 +1,272 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*cabeçalho e área de navegação*/
+.header{
+    background: rgb(51, 167, 181);
+    padding-bottom: 5px;
+    padding-inline: 16px;
+}
+.nav{
+    max-width: 1280px;
+    height: 27px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav-list a{
+    font-size: 15px;
+    color: white;
+}
+.icons{
+    margin-top: 4px;
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+
+/*primeira seção*/
+.section1{
+    background: #00ADBD;
+    height: 120px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-list1 a{
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+}
+.nav-list1{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 15px;
+    margin-inline-end: 8vh;
+}
+.imgLogo{
+    margin-inline-start: 7vh;
+}
+
+/*segunda seção*/
+.section2{
+    display: flex;
+    background-image: url(./imagens/fundo-home-clinica-min-v2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-evenly;
+
+}
+.medica{
+    width: 370px;
+    height: auto;
+}
+.sectionForm{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 12vh;
+    width: 450px;
+    height: 300px;
+    text-align: left;
+}
+
+.form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border-radius: 15px;
+    background-color: #00ADBD;
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+}
+.formTitle{
+    font-size: 35px;
+}
+.button{
+    margin-top: 17px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 0px;
+    background: #1fc625;
+    border-radius: 5px;
+    width:370px;
+    height: 35px;
+}
+.selection{
+    width: 370px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255, );
+    background: rgb(255, 255, 255, 0.5);
+    border: 0cap;
+}
+option{
+    color: black;
+}
+.title1{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+
+/*terceira seção*/
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    margin-top:2vh ;
+}
+.pow1{
+    font-size: 40px;
+    color: #00ADBD;
+}
+.pow2{
+    font-size: 25px;
+    color: gray;
+}
+.video{
+    width: 70%;
+    height: 70vh;
+}
+
+/*quarta seção*/
+.section4{
+    margin-top: 5vh;
+    background-color: #C61F40;
+    display: flex;
+    flex-direction: column;
+    row-gap:8vh;
+    padding: 10vh;
+}
+.subSection1{
+    display: flex;
+    justify-content: space-around;
+}
+.subSection2{
+    display: flex;
+    justify-content: space-around;
+}
+.subText{
+    display: flex;
+    font-size: 3vh;
+    width: 80vh;
+}
+.hospital{
+    width: 65vh;
+    height: auto;
+}
+
+/*quinta seção*/
+
+.section5{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 5vh;
+gap: 5vh;
+height: 55vh;
+}
+#tabela{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+.section5 h1{
+    color: #00ADBD;;
+}
+.tabelinha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vh;
+}
+.tabelinha p{
+    color: rgb(77, 77, 77);
+    font-size: larger;
+}
+#agendar{
+    margin-top: 17px;
+    font-weight: bolder;
+    font-size:20px;
+    border: 0px;
+    background: #1fc625;
+    border-radius: 5px;
+    width:170px;
+    height: 35px;
+}
+/*sexta seção*/
+.section6{
+    background: #00adbd;
+}
+.infor{
+    display: flex;
+    flex-direction: row;
+
+}
+.subdiv{
+    background: white;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.subdiv img{
+    width: 100px;
+    height: auto;
+}
+.subdiv h1{
+    color: #C61F40;
+    font-size: 35px;
+}
+.subdiv p{
+    color: #828282;
+}
+/*opacity */
+.sectionOpacity{
+    opacity: 0;
+}
+.sectionAnimation{
+    animation: animation 2s;
+}
+@keyframes animation{
+    from{
+        opacity: 0; 
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
